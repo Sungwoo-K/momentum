@@ -2,3 +2,7 @@
 
 /*components*/
 @import "components/mainScreen.css";
+
+.hidden {
+  display: none;
+}

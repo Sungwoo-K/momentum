@@ -9,6 +9,66 @@
 </head>
 <body>
     <img id="mainScreen" />
+        <div id="mainScreen_2">
+            <div id="parent_Screen">
+                <div id="child_Screen">
+                    <div class="box">
+                        <div id="weather">
+                            <span>Weather</span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div id="time">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div id="toDo">
+                            <form id="toDo_form">
+                                <input 
+                                    type="text" 
+                                    placeholder="Write a To Do and Press Enter" 
+                                    required 
+                                />
+                            </form>
+                            <ul id="toDo_list"></ul>
+                        </div>
+                        <form id="button">
+                            <button>Clear</button>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <div id="name">
+                            <form class="hidden" id="login_form">
+                                <input 
+                                    required 
+                                    maxlength="15" 
+                                    type="text" 
+                                    placeholder="What is your name?"
+                                >
+                                <input type="submit" value="Log In" />
+                            </form>
+                            <h1 id="greeting" class="hidden"></h1>
+                        </div>
+                        <div id="music">
+                            <span>AFTER UPDATE</span>
+                            <span>MUSIC</span>
+                        </div>
+                        <div id="wise_Saying">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="js/screen.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/wideSaying.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/toDoList.js"></script>
+    <script src="js/clear.js"></script>
 </body>
 </html>
